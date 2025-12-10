@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="p-4">
+      <div className="bg-slate-200 py-4 px-8 h-screen w-full overflow-scroll scrollbar-hide">
         <Outlet />
       </div>
     </div>

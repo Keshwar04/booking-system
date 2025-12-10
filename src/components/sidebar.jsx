@@ -9,7 +9,7 @@ const navItems = [
 
 export default function Sidebar() {
   return (
-    <aside className="h-screen w-64 bg-slate-900 text-slate-100 flex flex-col">
+    <aside className="h-screen w-[300px] bg-slate-900 text-slate-100 flex flex-col">
       <div className="px-6 py-4 text-lg font-semibold border-b border-slate-700">
         Logo
       </div>
