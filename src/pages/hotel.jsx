@@ -75,7 +75,7 @@ const Hotel = () => {
   });
 
   const testingStatus = () => {
-    const isSuccess = false;
+    const isSuccess = true;
     if (isSuccess) {
       setStatusPopup({
         open: true,
